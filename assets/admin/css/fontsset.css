@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'CSChatThaiUI';
+	src: url("../../fonts/CSChatThai/CSChatThaiUI.otf");
+	src: url("../../fonts/CSChatThai/CSChatThaiUI.eot") format("embedded-opentype"), url("../../fonts/CSChatThai/CSChatThaiUI.woff") format("woff"), url("../../fonts/CSChatThai/CSChatThaiUI.woff2") format("woff2"), url("../../fonts/CSChatThai/CSChatThaiUI.ttf") format("truetype"), url("../../fonts/CSChatThai/CSChatThaiUI.svg#CSChatThaiUI") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}

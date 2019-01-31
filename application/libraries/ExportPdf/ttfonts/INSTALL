@@ -1,0 +1,9 @@
+INSTALLATION EXAMPLE
+
+# cd /usr/share/fonts/truetype
+# tar xzf ~/Download/thai-ttf-0.4.17.tar.gz
+# mv thai-ttf-0.4.17/etc/fonts/conf.avail/* /etc/fonts/conf.avail
+# ln -s /etc/fonts/conf.avail/64-ttf-thai-tlwg.conf /etc/fonts/conf.d/
+# ln -s /etc/fonts/conf.avail/89-ttf-thai-tlwg-synthetic.conf /etc/fonts/conf.d/
+# rm -rf thai-ttf-0.4.17/etc
+

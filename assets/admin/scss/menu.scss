@@ -1,0 +1,54 @@
+@import "config";
+    * {
+        padding:0px;
+        margin:0px;
+        color: $font_primary !important;
+        font-family: 'CSChatThaiUI',Helvetica,Arial,sans-serif;
+    }
+
+    body {
+         /*background: image-url('image43.jpg');*/
+        background-repeat:no-repeat;
+        /*background-position:center;*/
+        background-size: cover;  
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        //background-color: $bg-main;
+        background-color: #f7f8fa;
+        font-weight: normal;
+        color: #2f4050 !important;
+
+    a.item {
+                    cursor: pointer;
+                    display: block;
+                    width: 75%;
+                    height: 180px;
+                    margin: auto;
+                    font-weight: bold;
+                    font-size: 15px;
+                    &.disabled {
+                        cursor: not-allowed;
+                        @include opacity(0.4);
+                        &:hover {
+                            @include scale(1);
+                        }
+                    }
+                    i {
+                        margin-top: 40px;
+                        font-size: 55px;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                    }
+
+                    display: block;
+                    @include transition(all 0.3s ease);
+                    &:hover {
+                        @include scale(1.1,1.1);
+                        text-decoration: none;
+                    }
+    }
+
+}
